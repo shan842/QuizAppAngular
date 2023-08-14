@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-body">
+    <h1 class="card-title">Welcome to Quizzr App</h1>
+    <h5 class="card-subtitle">This quiz will contain total 9 questions.Each question will holds 10 points  </h5>
+    <h3 class>Rules :</h3>
+    <ol>
+      <li>Correct answer gives you 10 points.</li>
+      <li>Incorrect answer gives you -10 points.</li>
+      <li>You will have 60 seconds to answer the question.</li>
+      <li>Refreshing the page will reset the quiz.</li>
+    </ol>
+    <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">All The Best</h1>
+    <div class="name col-md-4 my-3">
+      <label for ="name">Enter your name</label>
+      <input #name type="text" class="form-control">
+
+    </div>
+    <button class="btn btn-primary btn-sm" routerLink="/question" (click)="startQuiz()">Start quiz!!</button>
+  </div>
+</div>
